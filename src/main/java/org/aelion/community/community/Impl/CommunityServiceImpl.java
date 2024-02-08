@@ -24,7 +24,7 @@ public class CommunityServiceImpl implements CommunityService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private final static String CITY_API = "http://localhost:4001/api/v1/";
+    private final static String CITY_API = "http://CITY-SERVICE/api/v1/";
 
     /**
      * @return
